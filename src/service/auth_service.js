@@ -8,4 +8,4 @@ class AuthService{
   }
 }
 
-export default AuthService;
+export default AuthService;  
