@@ -6,7 +6,7 @@ import style from './Header.module.css';
 const Header = ({onLogout}) => 
 
   <header className={style.header}>
-    {true&& 
+    {onLogout && 
       <button className={style.logout} onClick={onLogout}>
        Logout 
       </button> 

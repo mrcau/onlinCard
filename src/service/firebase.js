@@ -9,4 +9,5 @@ const firebaseConfig = {
 };
 // Initialize Firebase
 const firebaseApp= firebase.initializeApp(firebaseConfig);
+//설정한 firebase 기초 설정 값을 firebaseApp 에 담아 익스포트
 export default firebaseApp;
