@@ -1,0 +1,30 @@
+.maker{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+.main{
+  flex : 1;
+  display:flex;
+  
+}
+.left{
+  flex:1;
+  align-items: center;
+  justify-content: center;
+  border-right:solid 1px;
+  background-color: antiquewhite;
+}
+.right{
+  flex:1;
+}
+.footer{
+  margin: 0mm;
+}
+
+@media (max-width:800px){
+  .main{
+    flex-flow: column;
+  }
+}
