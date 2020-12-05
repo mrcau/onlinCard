@@ -1,9 +1,9 @@
 import React from 'react';
 import style from './editor.module.css';
-const Editor = (props) => (
+const Editor = ({ card }) => (
   <section className={style.editor}>
-    <h1>EDITOR</h1> 
+    <h1>EDITOR</h1>
   </section>
-  );
+);
 
 export default Editor;
