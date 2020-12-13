@@ -1,0 +1,50 @@
+.card{
+  display: flex;
+  background-color: yellow;
+  margin: 0.5em;
+  align-items: center;
+  border-radius: 1em;
+  padding: 0.5em;
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+  max-width: 400px;
+  width: 1000px;
+}
+
+.card.dark{
+  background: black;
+  color: white;
+}
+
+.card.light{
+  background: white;
+  color: black;
+}
+
+.card.colorfull{
+  background: linear-gradient(194deg, rgba(63,94,251,1) 0%, rgba(252,70,70,0.4435261707988981) 64%);
+  color: black;
+}
+
+.avatar{
+  width: 10em;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+p{
+  margin: 0;
+}
+.company{
+  margin-bottom: 1em;
+}
+.company::after{
+  content: '';
+  display: block;
+  width: 90%;
+  height: 1px;
+  background: gray;
+  transform: translateY(0.5em);
+}
+.info{
+  width: 100%;
+}

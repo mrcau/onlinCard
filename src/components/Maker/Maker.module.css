@@ -16,8 +16,17 @@
   border-right:solid 1px;
   background-color: antiquewhite;
 }
+.card{
+  width: 100%;
+}
+
 .right{
   flex:1;
+  display: flex;
+  background-color: lightskyblue;
+  flex-flow: column;
+  align-items: center;
+  align-content: center;
 }
 .footer{
   margin: 0mm;

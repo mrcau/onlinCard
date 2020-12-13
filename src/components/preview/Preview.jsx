@@ -7,7 +7,7 @@ const Preview = ({ card }) => (
     
     <h1>PREVIEW</h1>
     {
-      card.map(card => <Card card={card}/>)
+      Object.keys(card).map(key => <Card key={key} card={card[key]}/>) // car[key]는 {}내용
     }
   </section>
 );

@@ -1,0 +1,19 @@
+.button{
+  background: lightgreen;
+  font-weight: 900;
+  cursor: pointer;
+  padding: 4px;
+  flex: 1 1 50%;
+  font-size : 0.8.rem;
+}
+
+.button:hover{
+  background: red;
+  color:white
+}
+
+.button:active{
+  background: yellow;
+  transform:scale(0.7);
+  color:red;
+}
